@@ -1,0 +1,6 @@
+项目：itchat
+简介：itchat是一个开源的微信个人号接口，使用python调用微信从未如此简单。
+网址：https://itchat.readthedocs.io/zh/latest/
+实例：
+1. http://www.php.cn/python-tutorials-394725.html
+2. https://www.cnblogs.com/wang-li/p/9744502.html
