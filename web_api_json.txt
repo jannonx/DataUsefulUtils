@@ -1,0 +1,90 @@
+接口名：金山词典
+url : http://open.iciba.com/?c=api
+example:
+{
+	"caption": "词霸每日一句",
+	"content": "Sometimes your whole life boils down to one insane move.",
+	"dateline": "2019-06-12",
+	"fenxiang_img": "http://cdn.iciba.com/web/news/longweibo/imag/2019-06-12.jpg",
+	"love": "1154",
+	"note": "人一生中出人头地的机会不多，一旦有了一定要抓住机会！",
+	"picture": "http://cdn.iciba.com/news/word/20190612.jpg",
+	"picture2": "http://cdn.iciba.com/news/word/big_20190612b.jpg",
+	"s_pv": "0",
+	"sid": "3419",
+	"sp_pv": "0",
+	"tags": [
+		{}
+	],
+	"translation": "小编的话：我们一生也许就只有那么一次机遇，不要松懈，一旦发现趁早行动。",
+	"tts": "http://news.iciba.com/admin/tts/2019-06-12-day.mp3"
+}
+
+接口名：天气API接口
+教程使用：https://www.sojson.com/api/weather.html
+url : http://t.weather.sojson.com/api/weather/city/{城市代码}，见city_dict_zh.txt
+example:
+{
+    "cityInfo": {
+        "city": "北京市",
+        "cityId": "101010100",
+        "parent": "北京",
+        "updateTime": "12:59"
+    },
+    "data": {
+        "forecast": [
+            {
+                "aqi": 56.0,
+                "date": "12",
+                "fl": "<3级",
+                "fx": "南风",
+                "high": "高温 33.0℃",
+                "low": "低温 22.0℃",
+                "notice": "阴晴之间，谨防紫外线侵扰",
+                "sunrise": "04:45",
+                "sunset": "19:43",
+                "type": "多云",
+                "week": "星期三",
+                "ymd": "2019-06-12"
+            },
+           //自查询日后15天天气预报
+            {
+                "date": "26",
+                "fl": "<3级",
+                "fx": "东南风",
+                "high": "高温 37.0℃",
+                "low": "低温 20.0℃",
+                "notice": "雨虽小，注意保暖别感冒",
+                "sunrise": "04:47",
+                "sunset": "19:47",
+                "type": "小雨",
+                "week": "星期三",
+                "ymd": "2019-06-26"
+            }
+        ],
+        "ganmao": "极少数敏感人群应减少户外活动",
+        "pm10": 63.0,
+        "pm25": 42.0,
+        "quality": "良",
+        "shidu": "44%",
+        "wendu": "29",
+        "yesterday": {
+            "aqi": 90.0,
+            "date": "11",
+            "fl": "3-4级",
+            "fx": "南风",
+            "high": "高温 32.0℃",
+            "low": "低温 20.0℃",
+            "notice": "愿你拥有比阳光明媚的心情",
+            "sunrise": "04:46",
+            "sunset": "19:42",
+            "type": "晴",
+            "week": "星期二",
+            "ymd": "2019-06-11"
+        }
+    },
+    "date": "20190612",
+    "message": "Success !",
+    "status": 200,
+    "time": "2019-06-12 13:55:51"
+}
